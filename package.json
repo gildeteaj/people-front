@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "node server.js",
-    "build": "vue-cli-service build",
+    "build": "node server.js",
     "lint": "vue-cli-service lint",
     "postinstall": "npm run build",
     "start": "node server.js"
