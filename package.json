@@ -7,10 +7,10 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "npm run build",
-    "start": "node server.js" 
+    "start": "node server.js"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "vue": "^2.5.17",
     "vue-axios": "^3.2.4"
